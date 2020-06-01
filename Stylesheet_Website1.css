@@ -75,6 +75,7 @@
 
 .main-body a {
     text-decoration: none;
+    color: white;
 }
 
 .main-body a:visited {
