@@ -70,6 +70,15 @@
 
 .main-body {
     padding: 30px 200px 30px 200px;
+    color: white;
+}
+
+.main-body a {
+    text-decoration: none;
+}
+
+.main-body a:visited {
+    color: white;
 }
 
 body {
