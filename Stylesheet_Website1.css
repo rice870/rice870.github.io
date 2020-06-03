@@ -43,11 +43,6 @@
     color: #000000;
 }
 
-.topnav a:active {
-    background-color: darkblue;
-    color: white;
-}
-
 .topnav a.current-site {
     background-color: #4CAF50;
     color: white;
