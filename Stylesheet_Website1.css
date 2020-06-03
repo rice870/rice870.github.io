@@ -8,6 +8,11 @@
     100% {color: blue}
 }
 
+@keyframes meme {
+    from {background-color:green}
+    to {background-color: red}
+}
+
 /* Nav_bar and bottom bar stuff
  */
 
@@ -97,6 +102,7 @@ p {
 h1 {
     color: white;
     font-size: 3em;
+    font-family: Lobster, serif;
 }
 
 /*404 stuff*/
