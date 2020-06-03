@@ -13,8 +13,13 @@
     to {background-color: red}
 }
 
+
 /* Nav_bar and bottom bar stuff
  */
+
+.Title-top h1 {
+    font-family: "Cedarville Cursive", cursive;
+}
 
 .topnav {
     background-color: #333;
