@@ -3,9 +3,9 @@
 }
 
 @keyframes seizure {
-    0% {color: green}
-    50% {color: red}
-    100% {color: blue}
+    0% {background-color: green}
+    50% {background-color: red}
+    100% {background-color: blue}
 }
 
 @keyframes meme {
@@ -20,7 +20,7 @@
 .Title-top {
     width: 100%;
     margin: 0px;
-    background-color: red;
+    animation: seizure 10s infinite;
 }
 
 .Title-top h1 {
@@ -66,23 +66,8 @@
     padding: 14px 16px;
 }
 
-.bottom-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    overflow: hidden;
-}
-
-.bottom-bar p {
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-}
-
 /* Body stuff
  */
-
 .main-body {
     padding: 0 20% 50px 20%;
     color: white;
@@ -95,6 +80,11 @@
 
 .main-body a:visited {
     color: white;
+}
+
+.main-body img {
+    width: 60%;
+    margin-left: 20%;
 }
 
 body {
@@ -113,6 +103,24 @@ h1 {
     font-size: 3em;
     font-family: "Lobster", serif;
 }
+
+
+/* bottom bar */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.bottom-bar p {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
 /*404 stuff*/
 .error-404-body {
