@@ -4,8 +4,9 @@
 
 @keyframes seizure {
     0% {background-color: green}
-    50% {background-color: red}
-    100% {background-color: blue}
+    33% {background-color: red}
+    66% {background-color: blue}
+    100% {background-color: green}
 }
 
 @keyframes meme {
