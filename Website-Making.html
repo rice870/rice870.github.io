@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Table</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 5px;
+            }
+            table {
+                border-spacing: 0;
+            }
+            p.left {
+                float: left;
+            }
+            p.right {
+                float: right;
+            }
+            .highlighted {
+                background-color: #b07be5;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table style="width:100%">
+            <tr>
+                <th>4Cs</th>
+                <th>Sub- categories</th>
+                <th colspan="6"><p class="left">Near transfer</p><p class="right">Far transfer</p></th>
+            </tr>
+            <tr>
+                <th>Critical Thinking</th>
+                <td>Transfer of Knowledge</td>
+                <td>I applied what I know in a familiar context</td>
+                <td>I partially transferred what I know from one context to another, however, I couldn’t give reasons for how they linked</td>
+                <td>I successfully transferred and applied relevant knowledge from one context to a new but similar context</td>
+                <td>I applied what I know from one context to another unrelated context and was able to identify my new learning through the process with guidance</td>
+                <td class="highlighted">I analysed how knowledge is influenced by context and justified my application of knowledge to a new context</td>
+                <td>I hypothesised and theorised about how knowledge can be applied to a range of disconnected contexts</td>
+            </tr>
+            <tr>
+                <th>Creativity</th>
+                <td></td>
+                <td>I imitated or restated ideas without knowing and understanding what I was saying or doing</td>
+                <td>I combined ideas that were derived from the thinking of others for a particular purpose</td>
+                <td>I generated and combined some simple ideas that were derived from the thinking of others for a particular purpose</td>
+                <td>I generated and combined ideas in an original way to solve a problem or serve a purpose</td>
+                <td class="highlighted">I took risks to generate and combine novel ideas in original ways to solve a complex problem or to serve an important purpose</td>
+                <td>I used divergent thinking and took risks to generate and combine sophisticated ideas in original ways to solve a
+                    previously unknown problem, or express an individual voice, style or vision</td>
+            </tr>
+        </table>
+    </body>
 </html>
